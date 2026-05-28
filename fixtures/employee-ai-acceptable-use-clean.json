@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "id": "AUP-7001",
+      "rollout": "Employee AI onboarding update",
+      "audience": "All employees",
+      "platform": "Intranet + LMS",
+      "owner": "Security Awareness Governance",
+      "status": "ON_TRACK",
+      "workflowHealthy": true,
+      "daysToReview": 6,
+      "packet": "onboarding-policy packet",
+      "excerpt": "Policy evidence, training, and review timing are already aligned.",
+      "nextAction": "Publish and archive the packet."
+    }
+  ],
+  "packets": [
+    {
+      "id": "PKT-9901",
+      "programId": "AUP-7001",
+      "rollout": "Employee AI onboarding update",
+      "audience": "All employees",
+      "platform": "Intranet + LMS",
+      "owner": "Security Awareness Governance",
+      "domain": "ACCEPTABLE_USE",
+      "kind": "PolicyEvidence",
+      "severity": "low",
+      "status": "RESOLVED",
+      "scope": "Onboarding policy evidence",
+      "principal": "employee-ai-onboarding",
+      "message": "Acceptable-use evidence resolved and archived.",
+      "openedAt": "2026-05-10T08:00:00Z",
+      "dueAt": "2026-05-12T08:00:00Z"
+    }
+  ]
+}
